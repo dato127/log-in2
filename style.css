@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "raleway";
+    src: url(font/Raleway-VariableFont_wght.ttf);
+} 
+@font-face {
+    font-family: "roboto";
+    src: url(font/Roboto-Regular.ttf);
+}
+ 
+ body {
+    background-image: url(galery/image\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*div container  used it to center the content*/
+.containerflex {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 300px;
+    height: 250px;
+    margin-top: 250px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+/*div conainer input element selector*/
+.containerinput {
+    height: 50px;
+    border-radius:41px ;
+    border: none;
+    padding-left: 20px;
+    font-family: "raleway";
+    outline: none;
+}
+/*div conainer input element "submit" selector*/
+.containerinputsubmit {
+    height: 50px;
+    border-radius: 41px;
+    background: transparent;
+    border: 2px solid #fff;
+    font-family: "roboto";
+    color: #fff;
+}
+/*div container img selector*/
+img {
+   position: relative;
+   width: 25px;
+   height: 25px;
+   left: 250px;
+   bottom: 50px;
+}
